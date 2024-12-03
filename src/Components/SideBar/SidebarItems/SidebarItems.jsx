@@ -8,7 +8,7 @@ const SidebarItems = ({ item, isSidebarOpen }) => {
         <NavLink
             to={item.path}
             className={({ isActive }) =>
-                `flex items-center space-x-2 p-2.5 text-sm font-medium rounded-lg hover:bg-gray-700 transition-all duration-300 mb-1 ${isActive ? 'bg-gray-700' : ''}`
+                `flex items-center space-x-2 p-1.5 mt-4 text-sm font-medium rounded-lg hover:bg-gray-700 transition-all duration-300 mb-1 ${isActive ? `bg-gray-700` : ''}`
             }
             exact={true}
         >
