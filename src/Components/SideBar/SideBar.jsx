@@ -29,12 +29,11 @@ const SideBar = () => {
             animate={{ width: isSidebarOpen ? 256 : 80 }}
         >
             <div className="h-full bg-gray-800 bg-opacity-50 backdrop-blur-md p-4 flex-col border-r border-gray-700">
-
                 <Menubtn isSidebarOpen={isSidebarOpen} setIsSidebarOpen={setIsSidebarOpen} />
 
                 <nav className="mt-8 flex-grow">
                     {sideBarItems.map((item) => (
-                        <SidebarItems key={item.id} item={item} />
+                        <SidebarItems key={item.id} item={item} isSidebarOpen={isSidebarOpen} />
                     ))}
                 </nav>
 
