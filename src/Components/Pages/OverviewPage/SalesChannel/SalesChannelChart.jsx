@@ -29,10 +29,11 @@ const SalesChannelChart = () => {
 
                     <BarChart data={SALES_CHANNEL_DATA}>
 
-
                         <CartesianGrid strokeDasharray='3 3' stroke='#4B5563' />
+
                         <XAxis dataKey='name' stroke='#9CA3AF' />
                         <YAxis stroke='#9CA3AF' />
+                      
                         <Tooltip
                             contentStyle={{
                                 backgroundColor: "rgba(31, 41, 55, 0.8)",
@@ -40,6 +41,7 @@ const SalesChannelChart = () => {
                             }}
                             itemStyle={{ color: "#E5E7EB" }}
                         />
+                        
                         <Legend />
                         <Bar dataKey={"value"} fill='#8884d8'>
                             {SALES_CHANNEL_DATA.map((entry, index) => (
