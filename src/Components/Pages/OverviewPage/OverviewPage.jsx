@@ -1,4 +1,5 @@
 import Header from "../../Common/Header/Header"
+import CategoryDistributionChart from "./CategoryDistribution/CategoryDistributionChart"
 import SalesOverviewChart from "./SalesOverviewChart/SalesOverviewChart"
 import Stack from "./Stack/Stack"
 
@@ -13,7 +14,16 @@ const OverviewPage = () => {
 
                 <Stack></Stack>
 
-                <SalesOverviewChart></SalesOverviewChart>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 ">
+                    <div className="col-span-1">
+                        <SalesOverviewChart></SalesOverviewChart>
+                    </div>
+
+                    <div className="col-span-1">
+                        <CategoryDistributionChart></CategoryDistributionChart>
+                    </div>
+                </div>
 
             </main>
 
