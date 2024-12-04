@@ -1,5 +1,6 @@
 import Header from "../../Common/Header/Header"
 import CategoryDistributionChart from "./CategoryDistribution/CategoryDistributionChart"
+import SalesChannelChart from "./SalesChannel/SalesChannelChart"
 import SalesOverviewChart from "./SalesOverviewChart/SalesOverviewChart"
 import Stack from "./Stack/Stack"
 
@@ -24,6 +25,8 @@ const OverviewPage = () => {
                         <CategoryDistributionChart></CategoryDistributionChart>
                     </div>
                 </div>
+
+                <SalesChannelChart></SalesChannelChart>
 
             </main>
 
