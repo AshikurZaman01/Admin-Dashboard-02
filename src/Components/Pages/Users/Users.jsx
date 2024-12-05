@@ -1,5 +1,5 @@
-import { motion } from "framer-motion";
 import Header from "../../Common/Header/Header";
+import Stat from "./Stat/Stat";
 
 const Users = () => {
     return (
@@ -8,6 +8,9 @@ const Users = () => {
             <Header title={"Users"} />
 
             <main className='max-w-7xl mx-auto py-6 px-4 lg:px-8'>
+
+                {/* STATS */}
+                <Stat></Stat>
 
             </main>
 
