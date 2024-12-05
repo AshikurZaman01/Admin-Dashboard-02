@@ -15,7 +15,6 @@ const ProductPage = () => {
                 <ProductsTable></ProductsTable>
 
             </main>
-
         </div>
     )
 }

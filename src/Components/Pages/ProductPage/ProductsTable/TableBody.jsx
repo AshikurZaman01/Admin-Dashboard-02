@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { BiEdit } from 'react-icons/bi'
 import { BsTrash2 } from 'react-icons/bs'
 
-const TableBody = ({filteredProducts}) => {
+const TableBody = ({ filteredProducts }) => {
     return (
         <tbody className='divide-y divide-gray-700'>
             {filteredProducts.map((product) => (

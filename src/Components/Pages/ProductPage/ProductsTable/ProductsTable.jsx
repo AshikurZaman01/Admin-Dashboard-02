@@ -1,10 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { IoIosSearch } from "react-icons/io";
 import Header from "./Header";
 import TableHead from "./TableHead";
-import { BiEdit } from "react-icons/bi";
-import { BsTrash2 } from "react-icons/bs";
 import TableBody from "./TableBody";
 import SalesOverviewChart from "../../OverviewPage/SalesOverviewChart/SalesOverviewChart";
 import CategoryDistributionChart from "../../OverviewPage/CategoryDistribution/CategoryDistributionChart";
