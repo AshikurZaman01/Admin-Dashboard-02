@@ -1,4 +1,5 @@
 import Header from "../../Common/Header/Header";
+import SalesOverviewChart from "./SalesOverviewChart/SalesOverviewChart";
 import SalesStat from "./SalesStat/SalesStat";
 
 
@@ -12,9 +13,11 @@ const Sales = () => {
             <Header title={'Sales'}></Header>
 
             <main className='max-w-7xl mx-auto py-6 px-4 lg:px-8'>
-                {/* SALES STATS */}
 
+                {/* SALES STATS */}
                 <SalesStat></SalesStat>
+
+                <SalesOverviewChart></SalesOverviewChart>
 
             </main>
 
